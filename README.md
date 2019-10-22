@@ -6,4 +6,4 @@ A collaborative anime hosting project built on Node.js
 # Authors
 
 *   Apar Gautam
-*   Hacktivistic
+*   Hacktivistic (https://robinpanta.com)
