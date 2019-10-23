@@ -16,10 +16,10 @@ app.use(express.static(require('path').join(__dirname, 'public')))
 
 // Office Controller
 app.use('/office', require('./controllers/office'))
+//Animes controller
+app.use('/anime/', require('./controllers/anime'))
 // Home Controller
 app.use('/', require('./controllers/home'))
-//Animes controller
-app.use('/anime/one-piece', require('./controllers/onepiece'))
 
  app.listen(8080, () => {
      console.log("Application started listening on port 8080.")
