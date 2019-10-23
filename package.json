@@ -1,0 +1,27 @@
+{
+  "name": "animeer",
+  "version": "1.0.0",
+  "description": "A collaborative anime hosting project",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aparg/animeer.git"
+  },
+  "author": "Apar Gautam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aparg/animeer/issues"
+  },
+  "homepage": "https://github.com/aparg/animeer#readme"
+}

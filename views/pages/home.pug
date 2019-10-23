@@ -1,0 +1,11 @@
+extends ../layouts/default.pug
+
+block content
+    p Hello, Welcome to Animeer #{title}
+
+    .top
+        h1 Top Animes
+        .anime-list
+            for anime,index in animes
+                a(href="/anime/"+index)
+                    h2=anime.name
