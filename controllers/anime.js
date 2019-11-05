@@ -20,12 +20,15 @@ router.get('/:slug', (req, res) => {
         res.render('pages/anime',{
             title : anime.name,
             hero: anime.hero,
-            writer : anime.writer
+            writer : anime.writer,
+            index : req.params.slug,
+            synopsis : anime.synopsis
         })
 
     }else {
 
         //Anime doesn't exist
+        res.status(404)
         res.end('Error 404: Anime not found!')
 
     }
