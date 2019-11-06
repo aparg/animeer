@@ -66,3 +66,26 @@ body {
     margin: 20px;
     font-size: 14px;
 }
+
+.top1{
+    border-top: 20px solid #558bf8;
+  
+    
+}
+
+#cover{
+    float: left;
+    padding-top: 1%;
+    height: 260px;
+    padding-left: 1%;
+    padding-bottom: 1%;
+}
+
+.top1 > p{
+    padding-top: 1%
+}
+
+.totcov{
+    border: 2px solid black;
+    height: 50vh
+}

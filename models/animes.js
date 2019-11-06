@@ -19,7 +19,14 @@ module.exports = {
         hero: 'Naruto Uzumaki',
         writer: 'Masashi Kisimoto',
         synopsis : "From the hated kid of the village to the protector of people, will Naruto's dream of becoming a hokage change into  reality?"
+    },
+
+    'bleach' : {
+        name :'Bleach',
+        hero: 'Ichigo'
     }
+
+
 
 
 }
