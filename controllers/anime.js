@@ -8,6 +8,11 @@ const router = express.Router()
 
 const animes = require('../models/animes')
 
+router.get('/', (req, res) => {
+
+    res.render('pages/allanimes', { animes: animes })
+
+})
 
 router.get('/:slug', (req, res) => {
 
