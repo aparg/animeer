@@ -1,0 +1,41 @@
+
+.anime-box {
+    border: 1px solid #606060;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 201px;
+    margin-bottom: 10px;
+}
+
+.poster {
+    float: left;
+    width: 200px;
+}
+
+.poster > a > img {
+    width: 200px;
+    height: 200px;
+}
+
+.infoz {
+    width: 700px;
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    padding: 20px;
+    color: #ccc;
+}
+
+.infoz > h1 {
+    color: rgb(160, 0, 0);
+    margin-bottom: 15px;
+}
+
+.infoz > h1 > a {
+    text-decoration: none;
+}
+
+.infoz > span {
+    font-size: 13px;
+    display: block;
+    margin-bottom: 10px;
+}
