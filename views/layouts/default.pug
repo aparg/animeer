@@ -6,12 +6,27 @@ html(lang="en")
         meta(http-equiv="X-UA-Compatible", content="ie=edge")
         link(rel="stylesheet", href="/css/main.css")
         title My Animeer List
+        block styles
     body
         .header
-            h1 My Animeer List
+            .itembox
+                h1 My Animeer List
+                input(type='text' class='searchbox' placeholder='Search')
 
+        .nav
+            ul
+                li
+                    a(href='/') Home
+                li
+                    a(href='/anime') Anime List
+                li
+                    a(href='/request') Request
+                li
+                    a(href='/announcements') Announcements
+        
         .container
             block content
 
         .footer
             p Copyright &copy; 2019
+            p2 Experimental Project By Apaar Gautam

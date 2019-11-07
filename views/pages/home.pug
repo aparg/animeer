@@ -1,11 +1,19 @@
 extends ../layouts/default.pug
 
+block styles
+    link(rel="stylesheet", href="/css/home.css")
+
 block content
-    p Hello, Welcome to Animeer #{title}
 
     .top
-        h1 Top Animes
-        .anime-list
-            for anime,index in animes
-                a(href="/anime/"+index)
-                    h2=anime.name
+        h1 Anime Of The Day
+        .anime-box
+            .poster
+                a(href='/anime/' + anime.index)
+                    img(src=anime.poster)
+            .infoz
+                h1
+                    a(href='/anime/' + anime.index)=anime.name
+                span By #{anime.writer}
+                p=anime.synopsis
+            

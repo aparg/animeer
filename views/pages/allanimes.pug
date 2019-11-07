@@ -1,0 +1,19 @@
+extends ../layouts/default.pug
+
+block styles
+    link(rel="stylesheet", href="/css/animes.css")
+
+block content
+
+    for anime, index in animes
+        .anime-box
+            .anime-box
+                .poster
+                    a(href='/anime/' + index)
+                        img(src=anime.poster)
+                .infoz
+                    h1
+                        a(href='/anime/' + index)=anime.name
+                    span By #{anime.writer}
+                    p=anime.synopsis
+            
