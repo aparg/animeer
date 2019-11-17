@@ -1,0 +1,19 @@
+extends ../layouts/default.pug
+
+block styles
+    link(rel="stylesheet", href="/css/home.css?v=2")
+
+block content
+
+    .top
+        h1 Anime Of The Day
+        .anime-box
+            .infoz
+                form(method="POST")
+                    h2 Name
+                    input(type="text", name="fname")
+                    h2 Message
+                    input(type="text", name="msg")
+                    br
+                    br
+                    input(type="submit", value="Send")
